@@ -74,10 +74,16 @@ insert into emprestimo (id_usuario, id_livro, data_emprestimo) values (10, 8, '0
 
 
 
+select * from emprestimo as e
+inner join usuario as u
+
+where idade >= 18
+;
 
 
 
-
+/*
 select * from livro;
 select * from usuario;
 select * from emprestimo;
+*/
